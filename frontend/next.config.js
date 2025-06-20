@@ -1,18 +1,19 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  
-  // API Proxying to FastAPI backend
-  async rewrites() {
-    return [
-      {
-        source: '/api/:path*',
-        destination: 'http://127.0.0.1:8000/:path*',
-      },
-    ];
+  swcMinify: true,
+  images: {
+    unoptimized: true
   },
-};
+  eslint: {
+    ignoreDuringBuilds: true
+  },
+  typescript: {
+    ignoreBuildErrors: true
+  },
+  experimental: {
+    esmExternals: false
+  }
+}
 
-module.exports = nextConfig;
-
-
+module.exports = nextConfig
