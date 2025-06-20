@@ -3,7 +3,7 @@
 **Advanced Operating Room Bio-Intelligence Twin**  
 *Real-time Patient Monitoring • AI Clinical Support • Multi-Patient Dashboard*
 
-[![Deploy with Vercel](https://vercel.com/button)](https://oci-bfhm0qekv-pritam-kumar-pandas-projects.vercel.app)
+[![Deploy with Vercel](https://vercel.com/button)](https://oci.vercel.app)
 
 ## 🚀 Live Demo
 **👉 [View OR-BIT Live Demo](https://orbit-clinical-intelligence.vercel.app)**
